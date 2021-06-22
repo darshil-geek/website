@@ -617,6 +617,14 @@ a:hover {
   transition: 0.5s;
 }
 
+
+@media (max-width: 370px){
+
+  .hero route bg-image{
+    background-position: center;
+  }
+  
+}
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
