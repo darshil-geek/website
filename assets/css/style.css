@@ -629,6 +629,20 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 375px){
+
+  #hero{
+    background-image: url(../img/hero-bg-mobile_tr.jpg);
+  }
+}
+
+@media screen and (max-width: 400px){
+
+  #hero{
+    background-image: url(../img/hero-bg-mobile_tr.jpg);
+  }
+}
+
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
