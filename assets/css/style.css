@@ -632,14 +632,14 @@ a:hover {
 @media screen and (max-width: 375px){
 
   #hero{
-    background-image: url(../img/hero-bg-mobile_tr.jpg);
+    background-image: url(../img/hero-bg-mobile_tr_2.jpg);
   }
 }
 
 @media screen and (max-width: 400px){
 
   #hero{
-    background-image: url(../img/hero-bg-mobile_tr.jpg);
+    background-image: url(../img/hero-bg-mobile_tr_3.jpg);
   }
 }
 
