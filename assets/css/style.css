@@ -618,13 +618,17 @@ a:hover {
 }
 
 
-@media (max-width: 370px){
-
-  .hero route bg-image{
-    background-position: center;
-  }
-  
+#hero{
+  background-image: url(../img/hero-bg.JPG);
 }
+
+@media screen and (max-width: 360px){
+
+  #hero{
+    background-image: url(../img/hero-bg-mobile_tr.jpg);
+  }
+}
+
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
