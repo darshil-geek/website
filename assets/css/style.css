@@ -81,13 +81,21 @@ a:hover {
 }
 
 .bg-image {
+  /*background-image: url(assets/img/hero-bg.JPG);*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+
 }
 
 @media (max-width: 1024px) {
+  .bg-image {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 320px) {
   .bg-image {
     background-attachment: scroll;
   }
@@ -617,7 +625,6 @@ a:hover {
   transition: 0.5s;
 }
 
-
 #hero{
   background-image: url(../img/hero-bg.JPG);
 }
@@ -629,19 +636,13 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 420px){
 
   #hero{
     background-image: url(../img/hero-bg-mobile_tr_2.jpg);
   }
 }
 
-@media screen and (max-width: 400px){
-
-  #hero{
-    background-image: url(../img/hero-bg-mobile_tr_3.jpg);
-  }
-}
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
